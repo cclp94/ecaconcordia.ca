@@ -1,0 +1,72 @@
+/* BURGUNDY: 92238 */
+/* GOLD: DCA014 */
+/* BLUE: 19468C */
+
+body {
+}
+
+body > .container {
+margin: 20px auto;
+}
+
+.kljdljaa {
+    color: #19468C;
+}
+
+a:hover {
+    color: #12468C;
+}
+
+.site-footer {
+border-top: 1px solid #DCA014;
+background-color: #E5E5E5;
+}
+
+#description {
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#description > p {
+    width: 50%;
+    margin: auto;
+    font-size: 1.3em;
+}
+
+.stats {
+    font-variant: small-caps;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.stats > .fa {
+    margin: 10px 0;
+}
+
+.stats > .upstudents {
+    font-size: 1.6em;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-default {
+ background-color: #19468C;
+ }
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 100px;
+    height: 100px;
+    padding-top: 0;
+}
+
+.navbar-brand > img {
+    height: 90px;
+}
