@@ -7,6 +7,11 @@
 
     {% include header.html %}
 
+
+    {% if site.test %}
+      {% include test_css.html %}
+    {% endif %}
+
     {{ content }}
 
     {% include footer.html %}

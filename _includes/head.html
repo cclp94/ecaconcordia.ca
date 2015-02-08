@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend:site.baseurl }}"> 
 
   <!-- CUSTOM CSS -->
-  <link rel="stylesheet" href="{{ "/css/custom.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/red.css" | prepend: site.baseurl }}">
 
   <!-- JQUERY -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -24,4 +24,20 @@
 
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  {% if site.test %}
+  <script type="text/javascript">
+    function changeCSS(cssFile, cssLinkIndex) {
+
+      var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+
+      var newlink = document.createElement("link");
+      newlink.setAttribute("rel", "stylesheet");
+      newlink.setAttribute("type", "text/css");
+      newlink.setAttribute("href", cssFile);
+
+      document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+    }
+  </script>
+  {% endif %}
 </head>

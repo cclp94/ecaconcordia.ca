@@ -13,10 +13,39 @@ margin: 20px auto;
     color: #19468C;
 }
 
-a:hover {
-    color: #12468C;
+a {
+    color: #1756a9;
+    transition: all 0.2s ease-in-out;
 }
 
+a:visited {
+    color: #1756a9; /* might be able to remove that */
+}
+
+a:hover {
+    color: #12468C;
+    text-decoration: none;
+}
+
+.nav-pills > li > a{
+    border-radius: 0;
+}
+
+
+#quick-links > ul >  li:nth-child(1) > a:hover {
+    background-color: transparent;
+}
+
+#quick-links > ul > li:nth-child(1) > a {
+    cursor: default;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: white;
+    opacity: 0.8;
+}
 
 .post-content > h3 {
     margin-bottom: 0px;
@@ -62,7 +91,7 @@ background-color: #E5E5E5;
 }
 
 .navbar-default {
- background-color: #19468C;
+     background-color: #8B0F04;
  }
 
 .navbar-brand,
