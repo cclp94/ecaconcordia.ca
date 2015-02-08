@@ -9,10 +9,6 @@ body > .container {
 margin: 20px auto;
 }
 
-.kljdljaa {
-    color: #19468C;
-}
-
 a {
     color: #1756a9;
     transition: all 0.2s ease-in-out;
@@ -22,9 +18,26 @@ a:visited {
     color: #1756a9; /* might be able to remove that */
 }
 
-a:hover {
+a:hover, a:focus {
     color: #12468C;
     text-decoration: none;
+}
+
+a[data-toggle=collapse] {
+    cursor: pointer;
+    color: #2c3e50;
+}
+
+.society > .media-left {
+    line-height: 0;
+}
+
+.society-name > h3 {
+    margin: 0;
+}
+
+.society-name > h4 {
+    margin: 0;
 }
 
 .nav-pills > li > a{

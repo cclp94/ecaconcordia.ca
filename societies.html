@@ -4,18 +4,41 @@ title: Societies
 permalink: /societies/
 ---
 
-The Engineering & Computer Science Association has 16 active societies. University life isn’t just about getting the degree, it is also about being active and enjoying your time during your studies.  
-The ECA provides a rich variety of societies that they encourage students to participate in. The societies and competitive teams also plan events and weekly lizard lounges throughout the semester for all ENCS students to take part in. So whether you’re interested in academics, competitions, humanitarian work, etc… don’t hesitate to join a society that feels right for you.
+<p>
+  The Engineering & Computer Science Association has 16 active societies. University life isn’t just about getting the degree, it is also about being active and enjoying your time during your studies.
+</p>
+
+<p>
+  The ECA provides a rich variety of societies that they encourage students to participate in. The societies and competitive teams also plan events and weekly lizard lounges throughout the semester for all ENCS students to take part in. So whether you’re interested in academics, competitions, humanitarian work, etc… don’t hesitate to join a society that feels right for you.
+</p>
 
 {% for society in site.data.societies %}
 
-	<h3>{{ society.name }}</h3> 
-	<a href="mailto:{{ society.name }}@ecaconcordia.ca"><i class="fa fa-envelope-square"></i></a> 
-	<a href="http://{{ society.name }}.ecaconcordia.ca" target="_blank"><i class="fa fa-globe"></i></a>
-	{% if society.facebook %}
-		<a href="{{ society.facebook }}" target="_blank"><i class="fa fa-facebook-square"></i></a>
-	{% endif %}
+  <div class="media society">
 
-	<p>{{ society.description }}</p>
+    <div class="media-left media-middle">
+      <a href="mailto:{{ society.name | remove: ' ' }}@ecaconcordia.ca"><i class="fa fa-envelope-square"></i></a>
+      <br>
+      <a href="http://{{ society.name | remove: ' ' }}.ecaconcordia.ca" target="_blank"><i class="fa fa-globe"></i></a>
+      <br>
+      {% if society.facebook %}
+        <a href="{{ society.facebook }}" target="_blank"><i class="fa fa-facebook-square"></i></a>
+      {% endif %}
+    </div>
+
+    <div class="media-body">
+      <a class="society-name media-heading" data-toggle="collapse" data-target="#collapse{{ society.name | remove: ' ' }}">
+        <h3>{{ society.name }}</h3> 
+        {% if society.long_name %}
+          <h4>{{ society.long_name}}</h4>
+        {% endif %}
+      </a>
+
+      <p class="collapse" id="collapse{{ society.name | remove: ' ' }}">
+        {{ society.description }}
+      </p>
+    </div>
+
+  </div>
 
 {% endfor %}

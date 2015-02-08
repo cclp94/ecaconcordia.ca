@@ -1,4 +1,5 @@
 - name: ASHRAE
+  long_name: American Society of Heating, Refrigerating and Air-Conditioning Engineers
   description: |
     ASHRAE is an American Society founded in 1894. As a building technology society, its members focus on building systems, energy efficiency, indoor air quality, and sustainability within the industry. The Concordia chapter of ASHRAE is proud to be one of the three university chapters in Montreal. The society strives to bring exciting activities to not only engineering undergraduates, but all interested students.  
      This year, the Concordia chapter of ASHRAE Montreal has the honor of hosting the annual career fair. Through this networking event, you will be able to get in touch with potential employers from a wide selection of companies. In addition, we will be organizing a trip to ASHRAE’s winter conference in New York. We look forward to seeing you at these events!  
@@ -7,6 +8,7 @@
   facebook: https://www.facebook.com/ashrae.concordia
 
 - name: CASI
+  long_name: Canadian Aeronautics and Space Institute
   description: |
     The Canadian Aeronautics and Space Institute (C.A.S.I.) is back in business after a strong reopening of its Concordia University branch two years ago. The 2013–2014 academic year promises to take us to new heights as we offer the student body exciting and innovative opportunities.  
     CASI serves as a forum to bring together industry leaders and university students to promote the aeronautics, space, and remote sensing fields in Canada. Boasting a network of over 1600 members across Canada, CASI members benefit from an international network of contacts, annual workshops, conferences, and publications.  
@@ -16,6 +18,7 @@
   facebook: https://www.facebook.com/CASIConcordia
 
 - name: CSCE
+  long_name: Concordia Society of Civil Engineers
   description: |
     After yet another amazing year, the veteran group of executives this year are looking forward to continuing the CSCE traditions. The imaginative and poignant members of this society welcome all to take part in their shear and slightly bending moments of awesomeness.  
     Having several years of experience at Concordia, the members realized they had a mutual admiration of each other’s talents, a strong desire to make a difference and a keen drive to teach others - and we hope that many of you will take advantage of our knowledge and wisdom.  
@@ -25,10 +28,15 @@
   facebook: https://www.facebook.com/csceconcordia
 
 - name: CSME
+  long_name: Canadian Society for Mechanical Engineering
   description: |
+    After a few years of absence, Concordia’s chapter of the Canadian Society for Mechanical Engineers (CSME) is back in full swing. CSME’s new dynamic team will ensure that CSME is here to stay, for good.
+    The Canadian Society for Mechanical Engineering was founded in 1970 with the goal of having a single organization for Canadian mechanical engineers. An organization that would allow all members to stay up to date on the latest developments in mechanical engineering, as well as be aware of various activities at the local, regional, and national levels.
+    Come join CSME to stay on top of all things mechanical happening at Concordia, take part in competitions, access job opportunities and much more! CSME provides students with a great opportunity network with experienced engineers in the industry through conferences and meetings so don’t miss out!
   facebook: https://www.facebook.com/csmeconcordia
 
 - name: CUBES
+  long_name: Concordia Undergraduate Building Engineering Society
   description: |
     With a splash of new talent, and the wisdom of veteran members, it is guaranteed that CUBES will soar to new heights in this coming year. Expect to be invited to a wide range of activities hosted by your CUBES committee.  
     These activities will range from various site tours of some of the most interesting construction projects ongoing within the greater Montreal area. We will also be hosting tutorials to help aid students in programs that are sometimes overlooked by our BCEE program such as MATLAB.  
@@ -36,24 +44,27 @@
     This is a brief introduction to what Cubes is. A full list of our activities with their expected dates will be coming to our Facebook page, https://www.facebook.com/groups/CUBES.eca/. Feel free to check it out, and if you have any questions, or better yet suggestions, we encourage you contact us through our email!  
   facebook: https://www.facebook.com/Cubes.Eca
 
-- name: ENG GAMES
+- name: EngGames 
   description: |
     As the last remaining Competitive Society under the ECA, our team is set to assemble a delegation of 44 of Concordia’s most socially representative students at the province’s largest engineering competition: the Quebec Engineering Games. This event challenges teams from 11 different universities both mentally and physically in competitions such as field-specific theory, consulting, machine design, sports, and debates, to name a select few.  
     Being a half social, half academic event, Engineering Games provides a fantastic opportunity to network both among other students and among potential employers in a fun, casual environment. While each university strives to achieve glory and distinguish themselves among the rest, the most important aspect of the Games lies in the fact that it enables students to establish a large network of aspiring engineers. Their paths will undoubtedly cross in the future, and having these pre-established bonds is a precious and extremely useful asset in one’s career.  
     Many ex-delegates will attest to the fact that many of their fondest Concordia memories were made as a direct result of having participated in the Games. If you’d like to make the best of your university years while simultaneously investing into your future, consider trying out for the EngGames Team—you won’t regret it.  
       
 - name: EWB
+  long_name: Engineers Without Borders
   description: |
     The Concordia chapter of Engineers without Borders, founded in 2003, is one of 26 university EWB chapters across Canada. We work hard every year to connect Canadians to Africa through innovative outreach and educational programs. Our chapter keeps on increasing in size by having students like you help us have a greater impact on the causes we promote. We do several fundraising events, provide workshops to Concordia students on concepts such as development and fair trade, and youth engagement through presentations to Montreal-area high schools on water, food and sustainability issues in developing countries.  
     Check our contact information to find out how you can join us! We ensure that you will have a blast!  
   facebook: https://www.facebook.com/ewbconcordia
 
 - name: IEEE
+  long_name: Institute of Electrical and Electronics Engineers
   description: |
     IEEE is your all in one solution for all your electronics needs. We offer a FREE open lab for ALL engineering students, fully loaded with tons of specialized equipment such as oscilloscopes, power supplies, signal generators and hand tools you can work with. Come work on personal projects (beginners welcome!) while receiving help from our team of knowledgeable volunteers or just come by to chill out during your breaks, there’s plenty of room. But wait, there’s more! Every semester, we organize awesome parties with an emphasis on everything being FREE for engineering students (our legendary free smoked meat luncheon is now a Concordia tradition). We also host tutorials geared at helping students apply electrical theory learnt in school to fun projects like robots and learn handy skills such as soldering. Visit our website for office hours and like us on Facebook to get notified of all our epic events.  
   facebook: https://www.facebook.com/ieeeconcordia
 
 - name: IIE
+  long_name: Institute of Industrial Engineers
   description: |
     The Institute of Industrial Engineering (IIE) Concordia Chapter is proud to welcome all new and returning students for the 2013-2014 academic year.  
     IIE Concordia chapter is a representative of the International Institute of Industrial Engineering, which is the world’s largest professional society dedicated solely to the support of the industrial engineers by providing leadership, education, training, research, and development of all industrial engineering field aspects.  
@@ -64,6 +75,7 @@
   facebook: https://www.facebook.com/iie.concordiachapter?fref=ts
 
 - name: NSBE
+  long_name: National Society of Black Engineers
   description: |
     Do you want to meet more people like you? Ambitious students looking to broader their professional network and excel academically. Who are interested in helping each other to succeed as a group instead of being in competition? Who has the desire to make a positive difference in this world and learn how to optimize your time? Who wants to travel and network with young promising professionals across the globe? NSBE is for you.  
     The National Society of Black Engineers is an association that had its humble beginnings in 1971, in the United State with a powerful mission. Initially, the purpose of the association was to bring support and structure to the students that were in a minority. Alarming ratio stated that 80% of the black engineers would drop out after the first year. Facing such impasse, NSBE was created, as a family to sustain the future of this nation. Today, NSBE has grown into an international association, reaching over 35 000 members in close to 400 chapter in several continent.  
@@ -73,6 +85,7 @@
   facebook: https://www.facebook.com/nsbe.eca?fref=ts
 
 - name: SAE
+  long_name: Society of Automotive Engineers
   description: |
     Concordia SAE is a student-run society that participates in SAE International Engineering Design Competitions. Our society participates in 4 of those offered: AeroDesign (RC plane), Baja (off-road buggy), Formula (race car) and Supermileage (fuel-efficient vehicle). Each project requires the team to design, manufacture, assemble and test their vehicle, with the purpose of competing in SAE International Competitions and others in North America. On top of learning applied engineering, each project requires its members to learn time and project management, how to work within a team, responsibility and leadership.  
     We are always looking for new members, people who are: motivated, looking to learn, have hands-on experience and love aerospace and racing. Don't have any hands-on experience but want to learn? No problem! Come get involved; we are the best place and have the best resources for members to learn how to use tools, machine and much more. Bonus if you are a workaholic and always looking to improve. Double bonus points if you know how to have fun. We work all the time on our projects and we have a lot of fun while doing it! All academic backgrounds welcome.  
@@ -80,6 +93,7 @@
   facebook: https://www.facebook.com/concordiasae
 
 - name: SCS
+  long_name: Software Engineering and Computer Science Society
   description: |
     The Software Engineering and Computer Science Society welcomes all enthusiasts of software-related things and aids anyone who wishes to expand their knowledge of the field. Actually, if you are into coding, video games, hating fake math, or anything geeky, this is the society for you too!  
     This year, we strive for Concordia's strong involvement in competitions. We will actively seek to form teams and prepare the participants for various competitions such as CS Games and the international ACM competition. They're really fun, and allow you to test your skills against others.  
@@ -88,10 +102,13 @@
   facebook: https://www.facebook.com/groups/14044391163/
 
 - name: SEC
+  long_name: Sustainable Engineering Concordia
   description: |
+    Sustainable Engineering Concordia is the latest addition to the engineering societies.
+    Sustainability is not only about reducing human impact on the environment but also about strengthening communities and developing a prosperous future. As engineering and computer science students, you have the capabilities and innovative spirit to make significant contributions to this movement. Sustainable Engineering Concordia will be organizing many events throughout the school year to educate students about the various aspects of sustainable development, as well as providing opportunities to apply sustainable practices in hands-on situations. Topics of interest include but are not limited to: clean energy, food production, manufacturing, transportation, waste management, green building design, environmental restoration, resource management as well as other dimensions of social and economic sustainability. Our dedicated welcomes anyone to participate in our events and projects.
   facebook: https://www.facebook.com/SustainableEngConcordia
 
-- name: SPACE
+- name: Space Concordia
   description: |
     Space Concordia is a collection of undergraduate engineering students who love building things for space. We believe that hands-on learning is the best way to understand a topic and prepare you for a good career, so we work hard on space-related engineering projects.  
     We have four major projects this year:  
@@ -103,10 +120,12 @@
   facebook: https://www.facebook.com/groups/spaceconcordia/
 
 - name: UAV
+  long_name: Unmaned Aerial Vehicles
   description: |
   facebook: https://www.facebook.com/uavconcordia
 
 - name: WIE
+  long_name: Women in Engineering
   description: |
     Women in Engineering strives to help Concordia's female engineering students gain academic and financial support, while encouraging their involvement in various competitive teams and social events. We encourage our members to have an active school life and participate in activities of Concordia University’s Engineering and Computer Science Association and those professional societies advocating their respective discipline of Engineering. We endeavor to provide a nurturing atmosphere that will foster the growth of our members’ professional, academic, leadership and social skills. We also have an active outreach program, which is dedicated to increasing the participation of women in the field of engineering by promoting engineering to women and girls of all ages, through activities at elementary, high schools and CEGEPs in Montreal.  
     Note: Women in Engineering does not discriminate and is open to both male and female students.  
