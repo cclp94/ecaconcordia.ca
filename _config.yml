@@ -6,7 +6,14 @@ description: >
 baseurl: "" 
 url: "http://ecaconcordia.ca"
 
-# Site vars
+navbar: 
+  - About Us
+  - Societies
+  - Services
+  - Get Involved
+  - Toolbox
+
+# Site info
 facebook_username: ECAConcordia
 twitter_username: ecaconcordia
 instagram_username: ECAConcordia

@@ -28,6 +28,92 @@ a[data-toggle=collapse] {
     color: #2c3e50;
 }
 
+/* --- BOOSTRAP STYLES -- */
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+/* navbar */
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-default {
+    background-color: #8B0F04;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 100px;
+    height: 100px;
+    padding-top: 0;
+}
+
+.navbar-brand > img {
+    height: 90px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: white;
+    opacity: 0.8;
+}
+
+/* dropdown */
+
+.dropdown-menu {
+    min-width: none;
+    border: none; 
+    border-radius: initial;
+    padding: 0;
+}
+
+.dropdown-menu > li > a {
+    line-height: 40px;
+    height: inherit;
+    text-align: right;
+    transition: none;
+}
+
+.dropdown-menu > li > a:hover {
+    color: inherit;
+    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    box-shadow: none;
+    border-top: 1px solid #DCA014;
+    min-width: 0;
+}
+
+.dropdown-header {
+    position: absolute;
+    top: -35px;
+    right: -5px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+/* post */
+
+.post-content > h3 {
+    margin-bottom: 0px;
+}
+
+.site-footer {
+    border-top: 1px solid #DCA014;
+    background-color: #E5E5E5;
+}
+
+/* --- CUSTOM STYLES --- */
 .society > .media-left {
     line-height: 0;
 }
@@ -55,20 +141,6 @@ a[data-toggle=collapse] {
     border-bottom: 2px solid #ccc;
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-    color: white;
-    opacity: 0.8;
-}
-
-.post-content > h3 {
-    margin-bottom: 0px;
-}
-
-.site-footer {
-border-top: 1px solid #DCA014;
-background-color: #E5E5E5;
-}
-
 #description {
     padding: 15px 0;
     background-color: rgba(0, 0, 0, 0.1);
@@ -92,28 +164,4 @@ background-color: #E5E5E5;
 
 .stats > .upstudents {
     font-size: 1.6em;
-}
-
-.vertical-align {
-    display: flex;
-    align-items: center;
-}
-
-.navbar {
-    border-radius: 0;
-}
-
-.navbar-default {
-     background-color: #8B0F04;
- }
-
-.navbar-brand,
-.navbar-nav li a {
-    line-height: 100px;
-    height: 100px;
-    padding-top: 0;
-}
-
-.navbar-brand > img {
-    height: 90px;
 }
