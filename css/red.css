@@ -39,6 +39,7 @@ a[data-toggle=collapse] {
 
 .navbar {
     border-radius: 0;
+    margin-bottom: 0;
 }
 
 .navbar-default {
@@ -100,6 +101,12 @@ a[data-toggle=collapse] {
     right: -5px;
     color: #fff;
     opacity: 0.5;
+}
+
+
+/* page */
+.page-content {
+  padding: 51px 0 30px 0;
 }
 
 /* post */
@@ -165,3 +172,55 @@ a[data-toggle=collapse] {
 .stats > .upstudents {
     font-size: 1.6em;
 }
+
+/* custom pages */
+#EngWeek {
+    background-color: #1756a9;
+    color: white;
+}
+
+#EngWeek a {
+color: #DCA014;
+}
+
+#EngWeek h1{
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+
+#EngWeek h1, h2{
+    font-weight: bold;
+    color: darkblue;
+    border-bottom: 3px solid;
+}
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding: 8px 0;
+    font-variant: small-caps;
+}
+
+.table > thead > tr > th:nth-child(n+2) {
+    width: 103px;
+}
+
+#EngWeek td > a{
+    color: white!important;
+}
+
+table a:not(.btn), .table a:not(.btn) {
+    text-decoration: inherit;
+}
+
+tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+td[rowspan] {
+    vertical-align:middle!important;
+    text-align:center;
+    background-color: #DCA014;
+}
+
