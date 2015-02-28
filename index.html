@@ -38,23 +38,18 @@ layout: default
       </ul> 
     </div>
   </div>
+
+  <br><br>
+
+  <div class="row vertical-align">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="jumbotron">
+        <h1>It's EngWeek!</h1>
+        <p>The ECA's hosting a variety of events from February 28th to March 7th to celebrate the Engineering profession, and this year, with particular focus on student accomplishements!</p>
+        <p><a class="btn btn-primary btn-lg" href="engweek">Check the entire schedule!</a></p>
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
 </div>
-
-<script>
-function animateValue(id, start, end, duration) {
-    var range = end - start;
-    var current = start;
-    var increment = end > start? 1 : +1;
-    var stepTime = Math.abs(Math.floor(duration / range));
-    var obj = document.getElementById(id);
-    var timer = setInterval(function() {
-        current += increment;
-        obj.innerHTML = current;
-        if (current == end) {
-            clearInterval(timer);
-        }
-    }, stepTime);
-}
-
-//animateValue("upstudents", 5000, 100, 2000);
-</script>

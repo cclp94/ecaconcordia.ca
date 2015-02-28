@@ -173,6 +173,22 @@ a[data-toggle=collapse] {
     font-size: 1.6em;
 }
 
+/* jumbotron */
+.jumbotron {
+background-color: #1756a9;
+color: white;
+padding: 20px 50px;
+}
+
+.jumbotron h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.jumbotron a {
+    color: white;
+}
+
 /* custom pages */
 #EngWeek {
     background-color: #1756a9;
