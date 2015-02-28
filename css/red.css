@@ -204,13 +204,13 @@ color: #DCA014;
     padding-bottom: 5px;
 }
 
-#EngWeek h1, h2{
+#EngWeek h1, #EngWeek h2{
     font-weight: bold;
     color: darkblue;
     border-bottom: 3px solid;
 }
 
-.table>thead>tr>th {
+#EngWeek .table>thead>tr>th {
     vertical-align: bottom;
     text-align: center;
     border-bottom: 2px solid #ddd;
@@ -218,7 +218,7 @@ color: #DCA014;
     font-variant: small-caps;
 }
 
-.table > thead > tr > th:nth-child(n+2) {
+#EngWeek .table > thead > tr > th:nth-child(n+2) {
     width: 103px;
 }
 
@@ -226,15 +226,15 @@ color: #DCA014;
     color: white!important;
 }
 
-table a:not(.btn), .table a:not(.btn) {
+#EngWeek table a:not(.btn), .table a:not(.btn) {
     text-decoration: inherit;
 }
 
-tr {
+#EngWeek tr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-td[rowspan] {
+#EngWeek td[rowspan] {
     vertical-align:middle!important;
     text-align:center;
     background-color: #DCA014;
