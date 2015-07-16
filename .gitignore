@@ -3,7 +3,4 @@ downloads/*
 .sass-cache
 *.swp
 *.zip
-
-downloads/miscreports/NCWiE 2014 Conference Report, Kim Noel.docx
-
-downloads/reports/FY2014 Mid-Mandate report, President.pdf
+*.pdf
