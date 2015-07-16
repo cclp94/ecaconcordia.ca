@@ -13,56 +13,60 @@
 module Jekyll
   class DocNav < Liquid::Tag
     @path = nil
-    @title = nil
     @reverse = nil
+    @title = nil
 
     def initialize(tag_name, text, tokens)
       super
 
-      @path = text.split(/\s+/)[0].strip # splits the string (params) when whitespace and takes the 1st element
-      @title = 'Default Title'
-      @reverse = false
+      @path = text.split(/\s+/)[0].strip
 
+      @reverse = false
       if text =~ /--reverse/i
         @reverse = true
       end
+
+      @title = verboseCurrentWorkingDirectory()
       if text =~ /--title="(.+)"/i
         @title = text.match(/--title="(.+)"/i)[1]
       end
     end
 
     def render(context)
-      a_current_dir = @path.split("/").last
-      a_id = "#{a_current_dir}"
-      a_id = a_id.gsub("/", "-")
-
       source = "<li>"
-      source += "<a href='##{a_id}'>#{@title}</a>"
-      source += "<ul class='nav nav-stacked #{@container_class}'>\n"
-      sub_source = ""
+      source += "<a href='##{currentWorkingDirectory()}'>#{@title}</a>"
+      source += "<ul class='nav nav-stacked'>"
 
       path = File.join(context.registers[:site].config['source'], @path, "*")
-
       file_array = Dir.glob(path)
       if @reverse
         file_array = file_array.reverse
       end
 
       file_array.each do |entry|
-        filename = Pathname.new(entry).basename
-        current_dir = @path.split("/").last
-        id = "##{current_dir}-#{filename}"
-        id = id.gsub("/", "-")
+        entryname = Pathname.new(entry).basename
 
         # Get all subdirectories
         if File.directory?(entry)
-          source += "<li><a href='#{id}'>#{filename}</a></li>"
+          source += "<li><a href='##{idForSubdirectory(entryname)}'>#{entryname}</a></li>"
         end
       end
 
-      source += sub_source
       source += "</ul></li>"
       source
+    end
+
+    def currentWorkingDirectory()
+      return @path.split("/").last
+    end
+
+    def verboseCurrentWorkingDirectory()
+      return currentWorkingDirectory().capitalize
+    end
+
+    def idForSubdirectory(directory)
+      id = "#{currentWorkingDirectory()}-#{directory}"
+      return id.gsub(/\s/i, "").gsub(/\W/i, "-").downcase;
     end
 
   end

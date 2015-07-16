@@ -13,66 +13,58 @@
 module Jekyll
   class DocList < Liquid::Tag
     @path = nil
-    @title = nil
     @reverse = nil
+    @title = nil
 
     def initialize(tag_name, text, tokens)
       super
 
       @path = text.split(/\s+/)[0].strip
-      @title = 'Default Title'
-      @reverse = false
 
+      @reverse = false
       if text =~ /--reverse/i
         @reverse = true
       end
+
+      @title = verboseCurrentWorkingDirectory()
       if text =~ /--title="(.+)"/i
         @title = text.match(/--title="(.+)"/i)[1]
       end
     end
 
     def render(context)
-      a_current_dir = @path.split("/").last
-      a_id = "#{a_current_dir}"
-      a_id = a_id.gsub("/", "-")
-
-      source = "<section class='group' id='#{a_id}'>"
+      source = "<section class='group' id='#{currentWorkingDirectory()}'>"
       source += "<h2>#{@title}</h2>"
-      source += "<ul class='#{@container_class}'>\n" 
-      source += "#{@container_tag}"
+      source += "<ul>"
       sub_source = ""
 
       path = File.join(context.registers[:site].config['source'], @path, "*")
-
       file_array = Dir.glob(path)
       if @reverse
         file_array = file_array.reverse
       end
 
       file_array.each do |entry|
-        filename = Pathname.new(entry).basename
-        url = File.join('/', @path, filename)
+        entryname = Pathname.new(entry).basename
+        url = File.join('/', @path, entryname)
 
-        current_dir = @path.split("/").last
-        id = "#{current_dir}-#{filename}"
-        id = id.gsub("/", "-")
-        
         # Look through Subdirectories
         if File.directory?(entry)
-          sub_source += "<div class='subgroup' id='#{id}'>"
-          sub_source += "<h4>#{filename}</h4>"
+          sub_source += "<div class='subgroup' id='#{idForSubdirectory(entryname)}'>"
+          sub_source += "<h4>#{entryname}</h4>"
           sub_source += "<ul>"
-          sub_path = File.join(entry, "*")
 
+          sub_path = File.join(entry, "*")
           sub_file_array = Dir.glob(sub_path)
           if @reverse
             sub_file_array = sub_file_array.reverse
           end
 
           sub_file_array.each do |sub_entry|
-            sub_filename = Pathname.new(sub_entry).basename
-            sub_url = File.join('/', @path, filename, sub_filename)
-            sub_source += "<li><a href='#{sub_url}'>#{sub_filename}</a></li>"
+            sub_entryname = Pathname.new(sub_entry).basename
+            sub_url = File.join('/', @path, entryname, sub_entryname)
+
+            sub_source += "<li><a href='#{sub_url}'>#{sub_entryname}</a></li>"
           end
 
           sub_source += "</ul>"
@@ -81,7 +73,7 @@ module Jekyll
           
         # Else
         else
-          source += "<li><a href='#{url}'>#{filename}</a></li>"
+          source += "<li><a href='#{url}'>#{entryname}</a></li>"
         end
         # Endelse
 
@@ -90,6 +82,19 @@ module Jekyll
       source += sub_source
       source += "</ul></section>"
       source
+    end
+
+    def currentWorkingDirectory()
+      return @path.split("/").last
+    end
+
+    def verboseCurrentWorkingDirectory()
+      return currentWorkingDirectory().capitalize
+    end
+
+    def idForSubdirectory(directory)
+      id = "#{currentWorkingDirectory()}-#{directory}"
+      return id.gsub(/\s/i, "").gsub(/\W/i, "-").downcase;
     end
 
   end
