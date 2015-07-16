@@ -4,6 +4,58 @@ title: Elections
 category: Get Involved
 ---
 
+# OFFICIAL RESULTS  
+
+#### Executive Positions  
+__President__  
+Mayla Tenorio Vazquez – yes: 241, no: 50, abstain: 31 – is elected  
+
+__VP Finance__  
+Anas Ouadhi – yes: 228, no: 67, abstain: 45 – is elected  
+
+__VP External__  
+Sebastian Arjona – yes: 226, no: 57, abstain 55 – is elected  
+
+__VP Sports and Competitions__  
+Wenyu Qi – yes: 230, no: 47, abstain: 50 – is elected  
+
+__VP Marketing and Communications__  
+Sabrine Daou – yes: 243, no: 52, abstain: 49 - is elected  
+
+__VP Academic__  
+Dilany Abeywickrama – yes: 174, no: n/a, abstain: 26 - is elected  
+Abir Fakhreddine – yes: 130 , no: n/a, abstain: 26  
+
+__VP Social__  
+Arravein Ponnudurai – yes: 121, no: n/a, abstain: 15 - is elected  
+Daniel Sciascia – yes: 98, no: n/a, abstain: 15  
+Ryan Wong – yes: 109, no: n/a, abstain: 15   
+
+__VP Internal__  
+No candidate
+
+#### Departmental Representatives
+__Mechanical and Industrial Representative__  
+Mohamed-Hedi Rais – yes: 143, no: 47, abstain: 16 - is elected  
+
+__Building, Civil and Environmental Engineering Representative__  
+Amal Bouanani – yes: 51, no: 14, abstain: 3 - is elected  
+
+__Electrical and Computer Engineering Representative__  
+Amine Mhedhbi – yes: 24, no: 1, abstain: 3 - is elected  
+
+__Computer Science and Software Engineering Representative__  
+Leo Collard	– yes: 35, no: 6, abstain: 2 – is elected  
+
+#### Referendum Questions  
+__Bylaws__ – yes: 231, no: 73 , abstain: 34 – passed  
+
+__Equipment Fund__ – yes: 286, no: 39, abstain: 19 - passed  
+
+__Student ID Collection__ - yes: 244, no: 79, abstain: 25 - passed  
+
+<hr>
+
 The ECA is holding its annual election, this is the time where you can vote for who is going to represent you and decide how the ECA is run.
 
 ### Who can vote?
