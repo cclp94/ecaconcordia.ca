@@ -8,18 +8,24 @@
 # 
 # OPTIONS
 # --title="Foo Title"
+# --reverse (default=false)
 
 module Jekyll
   class DocNav < Liquid::Tag
     @path = nil
     @title = nil
+    @reverse = nil
 
     def initialize(tag_name, text, tokens)
       super
 
       @path = text.split(/\s+/)[0].strip # splits the string (params) when whitespace and takes the 1st element
       @title = 'Default Title'
+      @reverse = false
 
+      if text =~ /--reverse/i
+        @reverse = true
+      end
       if text =~ /--title="(.+)"/i
         @title = text.match(/--title="(.+)"/i)[1]
       end
@@ -37,7 +43,12 @@ module Jekyll
 
       path = File.join(context.registers[:site].config['source'], @path, "*")
 
-      Dir.glob(path).each do |entry|
+      file_array = Dir.glob(path)
+      if @reverse
+        file_array = file_array.reverse
+      end
+
+      file_array.each do |entry|
         filename = Pathname.new(entry).basename
         current_dir = @path.split("/").last
         id = "##{current_dir}-#{filename}"
