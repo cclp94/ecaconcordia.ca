@@ -2,6 +2,7 @@
 layout: page
 title: About Us
 permalink: /about/
+order: 1
 navbar_desc: learn about who we are
 ---
 
