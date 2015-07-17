@@ -1,8 +1,15 @@
 ---
 layout: page
 title: Exam Bank
+display_title: false
 permalink: /exambank/
 category: Services
 ---
 
-{% image_set downloads/exambank %}
+<nav class="bs-docs-sidebar dont be a bitch">
+  <ul class="nav nav-stacked" id="sidebar">
+  {% doc_nav downloads/exambank --title="Exam Bank" %}
+  </ul>
+</nav>
+
+{% doc_list downloads/exambank --title="Exam Bank" %}

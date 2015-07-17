@@ -1,0 +1,19 @@
+---
+layout: page
+title: Meetings and Reports
+category: Downloads
+---
+
+<nav class="bs-docs-sidebar dont be a bitch">
+  <ul class="nav nav-stacked" id="sidebar">
+  {% doc_nav downloads/bod --reverse --title="Board of Directors" %}
+  {% doc_nav downloads/council --reverse %}
+  {% doc_nav downloads/reports --reverse %}
+  {% doc_nav downloads/miscreports --title="Conference & Competition reports" %}
+  </ul>
+</nav>
+
+{% doc_list downloads/bod --reverse --title="Board of Directors" %}
+{% doc_list downloads/council --reverse %}
+{% doc_list downloads/reports --reverse %}
+{% doc_list downloads/miscreports --title="Conference & Competition Reports" %}

@@ -1,23 +1,15 @@
 ---
 layout: page
 title: Toolbox
-navbar_desc: already involved? get all the tools you need to succeed
+category: Downloads
 ---
 
-<h2>Governing Docs</h2>
-{% image_set downloads/governingdocs %}
+<nav class="bs-docs-sidebar dont be a bitch">
+  <ul class="nav nav-stacked" id="sidebar">
+{% doc_nav downloads/guides %}
+{% doc_nav downloads/templates %}
+  </ul>
+</nav>
 
-<h2>Reports</h2>
-{% image_set downloads/reports %}
-
-<h2>Conference and Competition Reports</h2>
-{% image_set downloads/miscreports %}
-
-<h2>Guides</h2>
-{% image_set downloads/guides %}
-
-<h2>Templates</h2>
-{% image_set downloads/templates %}
-
-<h2>FY2014 Council Meetings</h2>
-{% image_set downloads/FY2014council %}
+{% doc_list downloads/guides %}
+{% doc_list downloads/templates %}
