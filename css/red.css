@@ -3,7 +3,7 @@
 /* BLUE: 19468C */
 
 #sidebar.affix-top, .affix {
-  width: 120px;
+  width: 180px;
 }
 
 #sidebar.affix {
@@ -13,7 +13,7 @@
 /* sidebar */
 .bs-docs-sidebar {
   position: absolute;
-  left: 220px;
+  left: 150px;
   text-align: right;
   margin-top: 7px;
   margin-bottom: 20px;
@@ -73,7 +73,11 @@
 }
 
 .subgroup {
-  /* margin-right: -30px; */
+  margin-left: -30px!important;
+}
+
+small {
+  opacity: 0.2;
 }
 
 body {
