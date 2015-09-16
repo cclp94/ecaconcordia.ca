@@ -2,7 +2,7 @@
 layout: page
 title: Fall Iron Ring
 display_title: true
-permalink: /Iron Ring/
+permalink: /iron-ring/
 category: Services
 ---
 

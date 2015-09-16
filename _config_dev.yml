@@ -28,4 +28,3 @@ contact_phone: 514-848-2424 ext. 7408
 markdown: kramdown
 permalink: pretty
 keep_files: ["downloads"]
-destination: ~/public_html/
