@@ -1,0 +1,68 @@
+---
+layout: page
+title: Fall Iron Ring
+display_title: true
+permalink: /Iron Ring/
+category: Services
+---
+
+If you are an Engineering student at Concordia and have registered for graduation in the Fall 2015, 
+you are eligible to attend the Iron Ring Ceremony taking place in November 2015.
+
+In order to register for the Iron Ring, please come to the ECA office (H-838) with the following information:
+
+ - Name
+ - Student ID
+ - Program
+ - Email
+ - Ring Size (we will be able to measure your ring size, so please come in person)
+ 
+The office will be open from 10:00 to 12:00 and 13:00 to 16:00 on Mondays, Wednesdays, and Thursdays.
+
+
+#### Registration begins: September 17th
+
+#### Registration ends: October 7th
+
+
+Once you are registered and we have checked that you meet all the eligibility requirements, 
+we will send you a confirmation email, your can expect this during the first week of November.
+
+*Note:* __If you are currently taking Capstone or if you have remaining classes__ to complete in Winter 2016, you will not be eligible to attend the November 2015 ceremony.
+
+### Ceremony:
+
+ - __Date:__ November 14th, 2015
+ - __Time and Venue__: TBD
+
+*I can't go to the ceremony, can I still get the ring?*  
+No, you must attend the ceremony to receive the ring.
+
+*Who can attend the ceremony with me?*  
+Only mentors and the graduating students are allowed in the ceremony.
+
+*Who are the mentors?*  
+Each student can have one mentor, the only requirement is that they be engineers and be wearing their ring at the ceremony! 
+The mentors will be the ones to officially give you your ring.
+
+*Do I need to have a mentor?*  
+If you don't have a mentor, it's fine, one of the wardens will given you your ring.
+
+*How do I dress?*  
+Formal Attire required, so dress to impress!
+
+### Cocktail:
+
+ - __Date:__ November 14th, 2015
+ - __Time and Venue:__ TBD
+
+*Do I need to go to the cocktail?*  
+No, it is entirely optional!
+
+*Who can attend the cocktail with me?*  
+Each student can invite up to two guests, children under 10 years can attend the cocktail for free. 
+The mentors can also attend the cocktail for free, but they will count towards your two guests.
+
+*How much are the tickets?*  
+We'll email you information on how to get a ticket and the cost once your eligibility in confirmed.
+
