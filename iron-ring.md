@@ -17,7 +17,11 @@ In order to register for the Iron Ring Ceremony, please come to the ECA office (
  - Email
  - Ring Size (we will be able to measure your ring size, so please come in person)
  
-The office will be open from 10:00 to 12:00 and 13:00 to 16:00 on Mondays, Wednesdays, and Thursdays.
+###The office Hours:
+
+- Monday: 14:00 to 20:00
+- Wednesday, Friday: 10:00 to 12:00
+- Thrusday: 10:00 to 12:00 and 13:00 to 16:00
 
 
 #### Registration begins: September 17th
