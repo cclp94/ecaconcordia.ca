@@ -328,3 +328,23 @@ color: #DCA014;
     background-color: white;
     color: #DCA014;
 }
+
+/*----------About us page ------------*/
+.exec{
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.exec .name-title{
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+.exec span, .exec strong{
+    display: block;
+}
+
+.exec .exec-picture{
+    width: 60%;
+    height: auto;
+}

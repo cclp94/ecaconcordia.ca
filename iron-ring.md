@@ -35,7 +35,8 @@ Once you are registered and we have checked that you meet all the eligibility re
 we will send you a confirmation email. 
 You can expect to receive this email during the last week of October or the first week of November.
 
-*Note:* __If you are currently taking Capstone or if you have remaining classes__ to complete in Winter 2016, you will not be eligible to attend the November 2015 ceremony.
+*Note:* __If you are completing all your classes this semester (Fall 2015) you are eligible. However, __if you are currently taking Capstone or if you have remaining classes__ to complete in Winter 2016, you will not be eligible to attend the November 2015 ceremony.
+
 
 ### Ceremony:
 
