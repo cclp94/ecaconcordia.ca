@@ -1,0 +1,53 @@
+executives:
+    - name: Mayla Tenorio Vazquez
+      position: President
+      email: president@ecaconcordia.ca
+      imageUrl: assets/execs/president.png
+
+    - name: Anas Ouandi
+      position: VP Finance
+      email: finance@ecaconcordia.ca
+      imageUrl: assets/execs/VP-Finance.png
+
+    - name: Philippe Lorange
+      position: VP Internal
+      email: internal@ecaconcordia.ca
+      imageUrl: assets/execs/VP-Internal.png
+
+    - name: Sebastian Arjona Mesa
+      position: VP External
+      email: external@ecaconcordia.ca
+      imageUrl: assets/execs/VP-External.png
+
+    - name: Arravein Ponnudurai
+      position: VP Social
+      email: social@ecaconcordia.ca
+      imageUrl: assets/execs/VP-Social.png
+
+    - name: Wenyu Qi
+      position: VP Sports and Competition
+      email: comps@ecaconcordia.ca
+      imageUrl: assets/execs/VP-Comps.png
+
+    - name: Dilani Abeywickrama
+      position: VP Academic
+      email: academic@ecaconcordia.ca
+      imageUrl: assets/execs/VP-Academic.png
+
+    - name: Caio Paiva
+      position: VP Marketing
+      email: marketing@ecaconcordia.ca
+      imageUrl: assets/execs/VP-Marketing.png
+
+representaves:
+    - name: Amine Mhedhbi
+      position: Eletrical & Computer Engineering Representative
+
+    - name: Mohamed-Hedi Rais
+      position: Mechanical & Industrial Engineering Representative
+
+    - name: Leo Collard
+      position: Computer Science & Software Engineering Representative
+
+    - name: Amal Bouanani
+      position: Building, Civil & Evironmental Egineering Representative
