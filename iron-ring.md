@@ -6,8 +6,7 @@ permalink: /iron-ring/
 category: Services
 ---
 
-If you are an Engineering student at Concordia and have registered for graduation in Fall 2015, 
-you are eligible to attend the Iron Ring Ceremony taking place in November 2015.
+If you are an Engineering student at Concordia and have registered for graduation in Fall 2015, or if you are completing all your classes in Fall 2015, you are eligible to attend the Iron Ring Ceremony taking place in November 2015.
 
 In order to register for the Iron Ring Ceremony, please come to the ECA office (H-838) with the following information:
 
@@ -20,6 +19,7 @@ In order to register for the Iron Ring Ceremony, please come to the ECA office (
 ###The office Hours:
 
 - Monday: 14:00 to 20:00
+- Tuesday: 15:00 to 18:00
 - Wednesday: 10:00 to 12:00
 - Thrursday: 10:00 to 12:00 and 13:00 to 16:00
 - Friday: 10:00 to 12:00
@@ -36,7 +36,7 @@ Once you are registered and we have checked that you meet all the eligibility re
 we will send you a confirmation email. 
 You can expect to receive this email during the last week of October or the first week of November.
 
-*Note:* __If you are an Engineering student at Concordia and have registered for graduation in Fall 2015, or if you are completing all your classes in Fall 2015, you are eligible to attend the Iron Ring Ceremony taking place in November 2015.__
+Note: If you are completing all your classes this semester (Fall 2015) you are eligible. However, __if you are currently taking Capstone or if you have remaining classes to complete in Winter 2016, you will not be eligible to attend the November 2015 ceremony__.
 
 
 ### Ceremony:
