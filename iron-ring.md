@@ -18,12 +18,9 @@ In order to register for the Iron Ring Ceremony, please come to the ECA office (
  
 ###The office Hours:
 
-- Monday: 14:00 to 20:00
-- Tuesday: 15:00 to 18:00
-- Wednesday: 10:00 to 12:00
-- Thrursday: 10:00 to 12:00 and 13:00 to 16:00
-- Friday: 10:00 to 12:00
-
+- Tuesday: 10:00 to 16:00
+- Wednesday: 10:00 to 16:00
+- Thrursday: 10:00 to 16:00
 
 #### Registration begins: September 17th
 
@@ -42,7 +39,8 @@ Note: If you are completing all your classes this semester (Fall 2015) you are e
 ### Ceremony:
 
  - __Date:__ November 14th, 2015
- - __Time and Venue__: TBD
+ - __Time:__ 14:00h
+ - __ Venue__: 1190, Guy Street - H3A 2L4 - Grey Nuns E-104
 
 *I can't go to the ceremony, can I still get the ring?*  
 No, you must attend the ceremony to receive the ring.
