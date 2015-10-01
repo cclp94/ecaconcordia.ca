@@ -19,6 +19,8 @@
 # --container_tag=some_tag (sets the tag to contain all <img>s, default is 'ul')
 # --container_class=some_class (sets the class for container_tag, default is 'image-set')
 
+# --link=address (If present, creates a surrounding anchor tag redirecting the page)
+
 
 module Jekyll
   class ImageSet < Liquid::Tag
@@ -29,24 +31,40 @@ module Jekyll
     @wrap_tag = nil
     @container_tag = nil
     @container_class = nil
+    @link = nil
 
     def initialize(tag_name, text, tokens)
       super
 
       # The path we're getting images from (a dir inside your jekyll dir)
-      @path = text.split(/\s+/)[0].strip # splits the string (params) when whitespace and takes the 1st element
+      @path = text.split(/\s+/)[0].strip
 
       # Defaults
+      @class = 'image'
+      @wrap_class = 'image-item'
+      @wrap_tag = 'li'
       @container_tag = 'ul'
       @container_class = 'image-set'
+      @link = nil
 
       # Parse Options
-      # ie REGEX to recognize options submitted
+      if text =~ /--class=(\S+)/i
+        @class = text.match(/--class=(\S+)/i)[1]
+      end
+      if text =~ /--wrap-class=(\S+)/i
+        @wrap_class = text.match(/--wrap-class=(\S+)/i)[1]
+      end
+      if text =~ /--wrap-tag=(\S+)/i
+        @wrap_tag = text.match(/--wrap-tag=(\S+)/i)[1]
+      end
       if text =~ /--container-tag=(\S+)/i
         @container_tag = text.match(/--container-tag=(\S+)/i)[1]
       end
       if text =~ /--container-class=(\S+)/i
         @container_class = text.match(/--container-class=(\S+)/i)[1]
+      end
+      if text =~ /--link=(\S+)/i
+        @link = text.match(/--link=(\S+)/i)[1]
       end
 
     end
@@ -54,32 +72,29 @@ module Jekyll
     def render(context)
       # Get the full path to the dir
       # Include a filter for JPG and PNG images
-      # Creates a pattern for the different file types
-      full_path = File.join(context.registers[:site].config['source'], @path, "*")
-
-      #TODO: replace with path of files I want
-
+      full_path = File.join(context.registers[:site].config['source'], @path, "*.{jpg,jpeg,JPG,JPEG,png,PNG}")
       # Start building tags
-      source = "<ul class='#{@container_class}'>\n" # = <ul class="image-item">
-
+      source = "<#{@container_tag} class='#{@container_class}'>\n"
       # Glob the path and create tags for all images
-      # Creates the list of file, and iterates over them
       Dir.glob(full_path).each do |image|
         file = Pathname.new(image).basename
         src = File.join('/', @path, file)
-        source += "<li>\n" 
-        source += "<a href='#{src}'>"
-        source += "#{file}"
-        source += "</a>\n"
-        source += "</li>\n" 
-
+        source += "<#{@wrap_tag} class='#{@wrap_class}'>\n"
+        if @link != nil
+          source += "<a href='#{@link}'>"
+        end
+        source += "<img src='#{src}' class='#{@class}'>\n"
+        if @link != nil
+          source += "</a>"
+        end
+        source += "</#{@wrap_tag}>\n"
       end
       # Close it up 
-      source += "</ul>\n"
+      source += "</#{@container_tag}>\n"
       source
-
     end
   end
 end
 
 Liquid::Template.register_tag('image_set', Jekyll::ImageSet)
+

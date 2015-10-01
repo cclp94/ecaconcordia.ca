@@ -231,10 +231,10 @@ a[data-toggle=collapse] {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-#description > p {
-    width: 50%;
-    margin: auto;
+#description p {
+    margin-top: 40px;
     font-size: 1.3em;
+    line-height: 1.5;
 }
 
 .stats {

@@ -2,11 +2,18 @@
 layout: default
 ---
 
-<div id="description">
-  <p class="text-center">
-  The Engineering and Computer Science Association (ECA) represents all undergraduate students in the Faculty of Engineering and Computer Science at Concordia University. <br>
-  It was established to be the voice of the students to the Administration, and over the years, as new students became involved and brought ideas to the table, the Association has evolved into a dynamic and responsive group meeting the academic, social and political needs of its members.
-  </p>
+{% image_set assets/banners --class=img-responsive --container-tag=div --wrap-tag=div  --container-class=homeCarousel --wrap-class=item --link=/iron-ring %}
+
+<div id="description"class="">
+  <div class="container">
+  <div class="row">
+    <img src="/assets/logo.png" class="col-xs-3">
+    <p class="col-md-9 text-justify">
+    The Engineering and Computer Science Association (ECA) represents all undergraduate students in the Faculty of Engineering and Computer Science at Concordia University. <br>
+    It was established to be the voice of the students to the Administration, and over the years, as new students became involved and brought ideas to the table, the Association has evolved into a dynamic and responsive group meeting the academic, social and political needs of its members.
+    </p>
+  </div>
+  </div>
 </div>
 
 <div class="container">
