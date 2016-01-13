@@ -50,13 +50,15 @@ __Time and Venue:__ You will be informed after your eligibility is confirmed
 
 	_Each student can have one mentor, the only requirement is that they be engineers and be wearing their ring at the ceremony! The mentors will be the ones to officially give you your ring._
     
-*Do I need to have a mentor?
-	
-    _If you don’t have a mentor, it’s fine, one of the wardens will ring you._
-    
-*How do I dress?
+* Do I need to have a mentor?
 
-     _Formal Attire required, so dress to impress!_
+	_If you don’t have a mentor, it’s fine, one of the wardens will ring you._
+    
+* How do I dress?
+
+   _Formal Attire required, so dress to impress!_
+   
+   ---
     
 ## Cocktail:
 **Date:** March 19th, 2016 - following the ceremony
