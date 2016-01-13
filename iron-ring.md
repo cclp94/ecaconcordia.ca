@@ -33,30 +33,46 @@ Once you are registered and we have checked that you meet all the eligibility re
 
 You can expect to receive this email at the end of February.
 
-### Ceremony:
-- __Date:__: March 19th, 2016
-- __Time and Venue:__ You will be informed after your eligibility is confirmed
+## Ceremony:
+__Date:__: March 19th, 2016
+
+__Time and Venue:__ You will be informed after your eligibility is confirmed
 
 * I can’t go to the ceremony, can I still get the ring?
-	- No, you must attend the ceremony to receive the ring.
-* Who can attend the ceremony with me?
-	- Only mentors and the graduating students are allowed in the ceremony.
-* Who are the mentors?
-	- Each student can have one mentor, the only requirement is that they be engineers and be wearing their ring at the ceremony! The mentors will be the ones to officially give you your ring.
-*Do I need to have a mentor?
-	-If you don’t have a mentor, it’s fine, one of the wardens will ring you.
-*How do I dress?
-	-Formal Attire required, so dress to impress!
-    
-### Cocktail:
-- Date: March 19th, 2016 - following the ceremony
-- Time and Venue: You will be informed after your eligibility is confirmed
 
-Do I need to go to the cocktail?
-	- No, it is optional.
-Who can attend the cocktail with me?
-	- Each student can invite up to two guests, children under 10 years can attend the cocktail for free. If your mentor would like to attend the cocktail, he/she will count towards your two guests.
-How much are the tickets?
-	- We’ll email you information on how to get tickets and the cost once your eligibility is confirmed.
+	_No, you must attend the ceremony to receive the ring._
+    
+* Who can attend the ceremony with me?
+
+	_Only mentors and the graduating students are allowed in the ceremony._
+    
+* Who are the mentors?
+
+	_Each student can have one mentor, the only requirement is that they be engineers and be wearing their ring at the ceremony! The mentors will be the ones to officially give you your ring._
+    
+*Do I need to have a mentor?
+	
+    _If you don’t have a mentor, it’s fine, one of the wardens will ring you._
+    
+*How do I dress?
+
+     _Formal Attire required, so dress to impress!_
+    
+## Cocktail:
+**Date:** March 19th, 2016 - following the ceremony
+
+**Time and Venue:** You will be informed after your eligibility is confirmed
+
+- Do I need to go to the cocktail?
+
+	_No, it is optional._
+
+- Who can attend the cocktail with me?
+
+	_Each student can invite up to two guests, children under 10 years can attend the cocktail for free. If your mentor would like to attend the cocktail, he/she will count towards your two guests._
+
+- How much are the tickets?
+
+	_We’ll email you information on how to get tickets and the cost once your eligibility is confirmed._
 
 Should you need further information, please contact Dilani Abeywickrama on academic@ecaconcordia.ca
