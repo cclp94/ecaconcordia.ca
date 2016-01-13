@@ -1,75 +1,62 @@
 ---
 layout: page
-title: Fall Iron Ring Ceremony
+title: Winter Iron Ring Ceremony
 display_title: true
-permalink: /iron-ring/
+permalink: "/iron-ring/"
 category: Services
+published: true
 ---
 
-If you are an Engineering student at Concordia and have registered for graduation in Fall 2015, or if you are completing all your classes in Fall 2015, you are eligible to attend the Iron Ring Ceremony taking place in November 2015.
+
+If you are an Engineering student at Concordia University completing ALL your classes in Winter 2016, you are eligible to attend the Iron Ring Ceremony taking place in March 2016. (If you have remaining classes to complete in Summer 2016, you are NOT eligible to attend the March 2016 ceremony)
 
 In order to register for the Iron Ring Ceremony, please come to the ECA office (H-838) with the following information:
+- Name
+- Student ID
+- Program
+- Email
+- Ring Size (we will be able to measure your ring size, so please come in person)
 
- - Name
- - Student ID
- - Program
- - Email
- - Ring Size (we will be able to measure your ring size, so please come in person)
- 
-###The office Hours:
+### The office Hours:
+- Monday: 12:00 - 18:00
+- Tuesday: 10:00 - 11:30 & 14:00 - 18:00
+- Wednesday: 10:00 - 16:00
+- Thursday: 10:00 - 16:00
+- Friday: 10:00 - 14:30
 
-- Tuesday: 10:00 to 16:00
-- Wednesday: 10:00 to 16:00
-- Thrursday: 10:00 to 16:00
+## Registration begins: January 14th
+## Registration ends: January 28th
 
-#### Registration begins: September 17th
+Please note that January 28th is the FINAL date to register, late registrations will NOT be permitted
 
-#### Registration ends: October 7th
+Once you are registered and we have checked that you meet all the eligibility requirements, we will send you a confirmation email with all required information. 
 
-**Please note that October 7th is the FINAL date to register, late registrations will NOT be permitted**
-
-
-Once you are registered and we have checked that you meet all the eligibility requirements, 
-we will send you a confirmation email. 
-You can expect to receive this email during the last week of October or the first week of November.
-
-Note: If you are completing all your classes this semester (Fall 2015) you are eligible. However, __if you are currently taking Capstone or if you have remaining classes to complete in Winter 2016, you will not be eligible to attend the November 2015 ceremony__.
-
+You can expect to receive this email at the end of February.
 
 ### Ceremony:
+- __Date:__: March 19th, 2016
+- __Time and Venue:__ You will be informed after your eligibility is confirmed
 
- - __Date:__ November 14th, 2015
- - __Time:__ 14:00h
- - __ Venue__: 1190, Guy Street - H3A 2L4 - Grey Nuns E-104
-
-*I can't go to the ceremony, can I still get the ring?*  
-No, you must attend the ceremony to receive the ring.
-
-*Who can attend the ceremony with me?*  
-Only mentors and the graduating students are allowed in the ceremony.
-
-*Who are the mentors?*  
-Each student can have one mentor, the only requirement is that they be engineers and be wearing their ring at the ceremony! 
-The mentors will be the ones to officially give you your ring.
-
-*Do I need to have a mentor?*  
-If you don't have a mentor, it's fine, one of the wardens will ring you.
-
-*How do I dress?*  
-Formal Attire required, so dress to impress!
-
+* I can’t go to the ceremony, can I still get the ring?
+	- No, you must attend the ceremony to receive the ring.
+* Who can attend the ceremony with me?
+	- Only mentors and the graduating students are allowed in the ceremony.
+* Who are the mentors?
+	- Each student can have one mentor, the only requirement is that they be engineers and be wearing their ring at the ceremony! The mentors will be the ones to officially give you your ring.
+*Do I need to have a mentor?
+	-If you don’t have a mentor, it’s fine, one of the wardens will ring you.
+*How do I dress?
+	-Formal Attire required, so dress to impress!
+    
 ### Cocktail:
+- Date: March 19th, 2016 - following the ceremony
+- Time and Venue: You will be informed after your eligibility is confirmed
 
- - __Date:__ November 14th, 2015—following the ceremony
- - __Time and Venue:__ TBD
+Do I need to go to the cocktail?
+	- No, it is optional.
+Who can attend the cocktail with me?
+	- Each student can invite up to two guests, children under 10 years can attend the cocktail for free. If your mentor would like to attend the cocktail, he/she will count towards your two guests.
+How much are the tickets?
+	- We’ll email you information on how to get tickets and the cost once your eligibility is confirmed.
 
-*Do I need to go to the cocktail?*  
-No, it is entirely optional!
-
-*Who can attend the cocktail with me?*  
-Each student can invite up to two guests, children under 10 years can attend the cocktail for free. 
-The mentors can also attend the cocktail for free, but they will count towards your two guests.
-
-*How much are the tickets?*  
-We'll email you information on how to get a ticket and the cost once your eligibility is confirmed.
-
+Should you need further information, please contact Dilani Abeywickrama on academic@ecaconcordia.ca
